@@ -6,9 +6,13 @@ body {
   background-color: #ffffff;
   font-weight: 400;
 }
-.header-nav {
+.header-nav{
   color: #e7e9fc;
+  width: 1440px;
+
 }
+
+
 .header-nav a {
   color: #2e2f42;
 }
@@ -37,6 +41,7 @@ body {
   line-height: 21px;
   letter-spacing: 3%;
 }
+
 .main-menu-list a {
   text-decoration: none;
   font-size: 16px;
@@ -49,7 +54,9 @@ body {
 
 .main-menu-list li {
   list-style-type: none;
+  display: inline-block;
 }
+
 .main-menu-list a:hover {
   color: #404bbf;
 }
@@ -70,6 +77,7 @@ body {
 }
 .adres-list li {
   list-style-type: none;
+  display: inline-block;
 }
 .adres-list address a:hover {
   color: #404bbf;
@@ -80,14 +88,15 @@ body {
   width: 1440px;
   height: 600px;
   top: 72px;
+  text-align: center;
 }
-.efective-head h1 {
-  color: #ffffff;
+.efective-head .efective-head-h1{
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   letter-spacing: 2%;
   text-align: center;
+  color: #ffffff;
 }
 
 .first-text h3 {
@@ -151,6 +160,34 @@ body {
 
 .our-team {
   background-color: #f4f4fd;
+  text-align: center;
+  width: 1440px;
+  /* padding-left: 150px; */
+  align-items: center;
+  border: black;
+  border-style: solid;
+ 
+
+}
+.our-team-head{
+  display: block;
+  color:#2e2f42;
+  text-align: center;
+
+}
+
+.our-team .person-img-team{
+  display: inline-flex;
+  
+
+}
+.person-img-team li{
+margin: 10px;
+
+}
+.our-team li{
+  list-style-type: none;
+
 }
 .footer-menu {
   background-color: #2e2f42;
@@ -178,4 +215,47 @@ body {
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 3%;
+}
+
+
+.container {
+  width: 1158px;
+
+}
+.head-main{
+  display: flex;
+  align-items: center;
+border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #e7e9fc;
+  width: 1440px;
+}
+.our-portfolio{
+display: block;
+text-align: center;
+width: 1158px;
+}
+.our-portfolio .our-img-list{
+  display: flex;
+  list-style-type: none;
+ 
+  }
+  
+.container-first-section{
+  width: 1128px;
+  margin-top: 120px;
+  margin-left: 156px;
+  
+  
+}
+.container-first-section .first-text{
+  display: flex;
+ align-items: center;
+ padding: 20px;
+
+  
+  
+}
+.container-first-section .first-text li{
+  list-style-type: none;
 }
