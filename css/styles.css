@@ -19,9 +19,8 @@ ul {
 }
 .head-main {
   display: flex;
-  align-items: center;
-  text-align: center;
-  padding-left: 120px;
+
+  justify-content: center;
   border-color: #e7e9fc;
 
   border-bottom-style: solid;
@@ -29,10 +28,13 @@ ul {
   margin-bottom: 5px;
 }
 .header-nav {
-  /* color: #e7e9fc; */
-  width: 1440px;
+  display: flex;
+
+  justify-content: center;
   height: 72px;
   margin-bottom: 2px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .header-nav a {
@@ -197,6 +199,7 @@ ul {
   align-items: center;
 
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .our-team-head {
   display: block;
@@ -209,7 +212,9 @@ ul {
 }
 .person-img-team li {
   margin: 10px;
+  background-color: #ffffff;
 }
+
 .our-team li {
   list-style-type: none;
 }
@@ -254,7 +259,7 @@ ul {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #e7e9fc;
-  width: 1440px;
+
   height: 72px;
 }
 .our-portfolio {
@@ -264,7 +269,10 @@ ul {
   height: 1000px;
   align-items: center;
   margin-left: 150px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
+
 .our-img-list {
   display: flex;
   list-style-type: none;
@@ -284,6 +292,8 @@ ul {
   margin-top: 120px;
   margin-left: 156px;
   margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .container-first-section .first-text {
   display: flex;
