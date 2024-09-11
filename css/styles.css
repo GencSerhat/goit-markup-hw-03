@@ -22,11 +22,17 @@ ul {
 
   justify-content: center;
   border-color: #e7e9fc;
-
+  width: 1440px;
   border-bottom-style: solid;
   border-bottom-width: 15px;
   margin-bottom: 5px;
 }
+.container-header {
+  display: flex;
+  align-items: center;
+  padding: 0 120px;
+}
+
 .header-nav {
   display: flex;
 
@@ -66,6 +72,7 @@ ul {
   line-height: 21px;
   letter-spacing: 3%;
 }
+
 .main-menu-list {
   list-style-type: none;
   text-align: center;
@@ -106,7 +113,7 @@ ul {
   align-items: center;
 }
 .adres-list li {
-  padding-right: 50px;
+  padding: 10px;
   display: inline-flex;
 }
 .adres-list address a:hover {
@@ -190,17 +197,17 @@ ul {
   background-color: #404bbf;
 }
 
-.our-team {
+.container .our-team {
   background-color: #f4f4fd;
   text-align: center;
   width: 1440px;
-  height: 732px;
-
+ height: 732px;
   align-items: center;
 
   padding-top: 120px;
-  padding-bottom: 120px;
 }
+
+
 .our-team-head {
   display: block;
   color: #2e2f42;
@@ -252,6 +259,7 @@ ul {
 
 .container {
   width: 1158px;
+  /* padding: 0 120px; buraya dikkat */
 }
 .head-main {
   display: flex;
@@ -268,7 +276,7 @@ ul {
   width: 1128px;
   height: 1000px;
   align-items: center;
-  margin-left: 150px;
+margin-left: 100px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -305,33 +313,12 @@ ul {
 .container-first-section .first-text li {
   list-style-type: none;
 }
-/* h1{
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 60px;
-  letter-spacing: 2%;
-  text-align: center;
+.container-efective {
+  display: inline-block;
+  align-items: center;
 }
-h2{
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 2%;
-  text-align: center;
-  color: #2e2f42;
-}
-h3{
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color: #2e2f42;
-}
-p{
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  color:#F4F4FD ;
-
-} */
+.container-our-portfoilo{
+  border: #e7e9fc;
+  border-width: 1px;
+  border-style: solid;
+} 
