@@ -137,7 +137,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   text-align: center;
   padding: 188px 0;
 }
-.efective-head .efective-head-h1 {
+.efective-h1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -215,7 +215,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   text-align: center;
   color: #434455;
 }
-
 
 .container .our-team {
   background-color: #f4f4fd;
