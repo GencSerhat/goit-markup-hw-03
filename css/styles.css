@@ -32,7 +32,7 @@ ul {
   align-items: center;
 }
 
-.header-nav-menu {
+.nav-menu {
   display: flex;
 
   justify-content: center;
@@ -44,7 +44,7 @@ ul {
   padding: 24px 0;
 }
 
-.header-nav-menu a {
+.nav-menu a {
   color: #2e2f42;
   margin-right: 10px;
 }
