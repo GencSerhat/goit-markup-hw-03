@@ -81,6 +81,7 @@ ul {
   display: flex;
   align-items: center;
   text-decoration: none;
+  
 }
 
 .main-menu-list a {
@@ -339,4 +340,7 @@ img {
 display: flex;
 align-items: center;
 
+}
+.main-menu-list-a{
+  margin-right: 76px;
 }
