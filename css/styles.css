@@ -32,19 +32,17 @@ ul {
   align-items: center;
 }
 
-.nav-menu {
+.nav-div {
   display: flex;
-
   justify-content: center;
   height: 72px;
   align-items: center;
+  list-style-type: none;
+  text-decoration: none;
  
 }
 .header-list-menu{
   padding: 24px 0;
-}
-nav{
-  display: flex;
 }
 
 .nav-menu a {
@@ -82,6 +80,7 @@ nav{
   text-align: center;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .main-menu-list a {
