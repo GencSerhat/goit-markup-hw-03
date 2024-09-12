@@ -27,23 +27,24 @@ ul {
   border-bottom-width: 15px;
   margin-bottom: 5px;
 }
-.container-header {
+.container-header-main {
   display: flex;
   align-items: center;
-  padding: 0 120px;
 }
 
-.header-nav {
+.header-nav-menu {
   display: flex;
 
   justify-content: center;
   height: 72px;
-  margin-bottom: 2px;
-  margin-left: 120px;
-  margin-right: 120px;
+  align-items: center;
+ 
+}
+.header-list-menu{
+  padding: 24px 0;
 }
 
-.header-nav a {
+.header-nav-menu a {
   color: #2e2f42;
   margin-right: 10px;
 }
@@ -98,26 +99,31 @@ ul {
 .main-menu-list-studio:active {
   text-decoration: underline;
 }
-.adres-list address a {
+/* .adres-list address a {
   color: #434455;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
-}
-.adres-list a {
+} */
+/* .adres-list li a {
   text-decoration: none;
 }
-.adres-list {
+.adres-list li a {
   list-style-type: none;
   display: flex;
   align-items: center;
-}
-.adres-list li {
+}*/
+ .adres-list li {
   padding: 10px;
-  display: inline-flex;
+   display: inline-flex;
 }
 .adres-list address a:hover {
   color: #404bbf;
+}
+.adres-list ul{
+  display: flex;
+  gap: 40px;
+  
 }
 
 .efective-head {
@@ -201,12 +207,11 @@ ul {
   background-color: #f4f4fd;
   text-align: center;
   width: 1440px;
- height: 732px;
+  height: 732px;
   align-items: center;
 
   padding-top: 120px;
 }
-
 
 .our-team-head {
   display: block;
@@ -259,6 +264,8 @@ ul {
 
 .container {
   width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
   /* padding: 0 120px; buraya dikkat */
 }
 .head-main {
@@ -276,7 +283,7 @@ ul {
   width: 1128px;
   height: 1000px;
   align-items: center;
-margin-left: 100px;
+  margin-left: 100px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -317,8 +324,12 @@ margin-left: 100px;
   display: inline-block;
   align-items: center;
 }
-.container-our-portfoilo{
+.container-our-portfoilo {
   border: #e7e9fc;
   border-width: 1px;
   border-style: solid;
-} 
+}
+
+img {
+  display: block; /* maddelere göre düzenleme*/
+}
