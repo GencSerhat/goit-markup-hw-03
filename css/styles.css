@@ -128,15 +128,24 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 /*SECTİON EFECTİVE BAŞLANGIÇ*/
-
-.efective-head {
+.container-efective{
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
   top: 72px;
   text-align: center;
   padding: 188px 0;
+  align-items: center;
+
 }
+/* .efective-head {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  text-align: center;
+  padding: 188px 0;
+} */
 .efective-h1 {
   font-weight: 700;
   font-size: 56px;
@@ -145,6 +154,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   text-align: center;
   color: #ffffff;
   max-width: 496px;
+  margin: auto;
 }
 
 .button {
