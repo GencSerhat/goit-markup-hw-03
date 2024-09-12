@@ -160,6 +160,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   min-width: 169px;
   height: 56px;
   border-radius: 4px;
+  border: none;
 }
 .button:hover {
   background-color: #404bbf;
