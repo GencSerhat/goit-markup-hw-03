@@ -138,14 +138,9 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   align-items: center;
 
 }
-/* .efective-head {
-  background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
-  top: 72px;
-  text-align: center;
+.efective-head {
   padding: 188px 0;
-} */
+} 
 .efective-h1 {
   font-weight: 700;
   font-size: 56px;
