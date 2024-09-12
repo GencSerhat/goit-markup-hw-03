@@ -43,6 +43,9 @@ ul {
 .header-list-menu{
   padding: 24px 0;
 }
+nav{
+  display: flex;
+}
 
 .nav-menu a {
   color: #2e2f42;
