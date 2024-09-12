@@ -32,6 +32,9 @@ img {
 /*
 HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ 
 */
+.head-main{
+  border-bottom: 1px solid #e7e9fc;
+}
 
 .container-header-main {
   display: flex;
