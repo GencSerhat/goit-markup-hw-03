@@ -28,22 +28,19 @@ img {
   display: block; /* maddelere göre düzenleme*/
 }
 
-
 /*
 HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ 
 */
-.head-main{
+.head-main {
   border-bottom: 1px solid #e7e9fc;
 }
 
 .container-header-main {
   display: flex;
   align-items: center;
-
 }
 .header-list-menu {
   padding: 24px 0;
-  
 }
 
 .head-href {
@@ -64,9 +61,10 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   letter-spacing: 3%;
 }
 
-.nav-menu-list{
-display: flex;
-align-items: center;
+.nav-menu-list {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
 }
 .main-menu-list {
   list-style-type: none;
@@ -75,18 +73,16 @@ align-items: center;
   align-items: center;
   text-decoration: none;
   gap: 40px;
-  
 }
 
 .main-menu-list-a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 2%;
   color: #2e2f42;
   margin-right: 76px;
- 
 }
 
 .main-menu-list a:hover {
@@ -98,33 +94,24 @@ align-items: center;
 .main-menu-list-studio:active {
   text-decoration: underline;
 }
-.adres-list address a {
-  color: #434455;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
-.adres-list li a {
-  text-decoration: none;
+.adres-list li {
+  padding: 10px;
+  display: inline-flex;
 }
 .adres-list li a {
   list-style-type: none;
   display: flex;
   align-items: center;
+  text-decoration: none;
+  color: #2e2f42;
 }
-.adres-list li {
-  padding: 10px;
-  display: inline-flex;
-}
+
 .adres-list address a:hover {
   color: #404bbf;
 }
 .adres-list ul {
   display: flex;
   gap: 40px;
-}
-.main-menu-list-a {
-  margin-right: 76px;
 }
 
 /*
@@ -327,7 +314,3 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   border-width: 1px;
   border-style: solid;
 }
-
-
-
-
