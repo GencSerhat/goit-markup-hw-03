@@ -356,21 +356,16 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 
 /* OUR PORTFOİLO BİTİŞ*/
 
+/* FOOTER BAŞLANGIÇ*/
+
 
 .footer-menu {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
-  padding-left: 120px;
-  padding-top: 100px;
+  padding: 100px 0;
 }
-.footer-menu p {
-  color: #f4f4fd;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-}
+
 .footer-href {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -379,6 +374,17 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   line-height: 21px;
   letter-spacing: 3%;
   text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-prg{
+  color: #f4f4fd;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  max-width: 264px;
+
 }
 .span-href-footer {
   color: #f4f4fd;
@@ -388,3 +394,9 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   line-height: 21px;
   letter-spacing: 3%;
 }
+
+
+/* FOOTER BİTİŞ*/
+
+
+
