@@ -61,7 +61,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   letter-spacing: 3%;
 }
 
-.nav-menu-list {
+.head-nav {
   display: flex;
   align-items: center;
   margin-left: 50px;
