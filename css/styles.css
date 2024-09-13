@@ -128,7 +128,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 /*SECTİON EFECTİVE BAŞLANGIÇ*/
-.container-efective{
+.container-efective {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
@@ -136,11 +136,12 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   text-align: center;
   padding: 188px 0;
   align-items: center;
-
+  display: inline-block;
 }
+
 .efective-head {
   padding: 188px 0;
-} 
+}
 .efective-h1 {
   font-weight: 700;
   font-size: 56px;
@@ -173,11 +174,32 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 
 /*SECTİON EFECTİVE BİTİŞ*/
 
-.first-text h3 {
+/* SECTİON FİRST TEXTLERİN BAŞLANGICI*/
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.frt-txt-h3b{
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 2%;
+  margin-bottom: 8px;
+}
+
+.first-text{
+  display: flex;
+  gap: 24px;
+}
+.first-text-lim{
+  width: calc((100% - 72px) / 4);
 }
 .first-text p {
   font-size: 16px;
@@ -185,6 +207,23 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   letter-spacing: 2%;
   color: #434455;
 }
+
+.container-first-section {
+ 
+  margin-bottom: 120px;
+  
+}
+.container-first-section .first-text {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 1128px;
+  height: 104px;
+}
+.container-first-section .first-text li {
+  list-style-type: none;
+}
+/* SECTİON FİRST TEXTLERİN BİTİŞİ*/
 
 .person-img-team img {
   width: 240px;
@@ -305,27 +344,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   height: 300px;
 }
 
-.container-first-section {
-  margin-top: 120px;
-  margin-left: 156px;
-  margin-bottom: 120px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-.container-first-section .first-text {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  width: 1128px;
-  height: 104px;
-}
-.container-first-section .first-text li {
-  list-style-type: none;
-}
-.container-efective {
-  display: inline-block;
-  align-items: center;
-}
 .container-our-portfoilo {
   border: #e7e9fc;
   border-width: 1px;
