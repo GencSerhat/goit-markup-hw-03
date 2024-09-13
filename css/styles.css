@@ -226,6 +226,10 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 /* SECTİON FİRST TEXTLERİN BİTİŞİ*/
 
+
+
+/* OUR TEAM BAŞLANGIÇ*/
+
 .person-img-team img {
   width: 240px;
 }
@@ -261,12 +265,13 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   color: #434455;
 }
 
-.container .our-team {
+.our-team {
   background-color: #f4f4fd;
   text-align: center;
   width: 1440px;
   height: 732px;
   align-items: center;
+  padding: 120px 0;
 
   padding-top: 120px;
 }
@@ -275,19 +280,37 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   display: block;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 72px;
 }
 
-.our-team .person-img-team {
-  display: inline-flex;
+.person-img-team {
+  display: flex;
+  gap: 24PX;
 }
-.person-img-team li {
+.person-img-li{
   margin: 10px;
   background-color: #ffffff;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-
+.list-one-person{
+  padding: 32px 0;
+}
+.list-one-h3{
+text-align: center;
+margin-bottom: 8px;
+}
+.list-one-p{
+text-align: center;
+}
 .our-team li {
   list-style-type: none;
 }
+
+
+/* OUR TEAM BİTİŞ*/
+
+
 .footer-menu {
   background-color: #2e2f42;
   width: 1440px;
