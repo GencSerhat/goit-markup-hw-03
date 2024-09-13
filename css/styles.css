@@ -176,7 +176,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 
 /* SECTİON FİRST TEXTLERİN BAŞLANGICI*/
 
-.visually-hidden{
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -186,7 +186,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-.frt-txt-h3b{
+.frt-txt-h3b {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -194,11 +194,11 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   margin-bottom: 8px;
 }
 
-.first-text{
+.first-text {
   display: flex;
   gap: 24px;
 }
-.first-text-lim{
+.first-text-lim {
   width: calc((100% - 72px) / 4);
 }
 .first-text p {
@@ -209,10 +209,8 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 .container-first-section {
- 
   margin-bottom: 120px;
   padding: 120px 0;
-  
 }
 .container-first-section .first-text {
   display: flex;
@@ -225,8 +223,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   list-style-type: none;
 }
 /* SECTİON FİRST TEXTLERİN BİTİŞİ*/
-
-
 
 /* OUR TEAM BAŞLANGIÇ*/
 
@@ -285,31 +281,29 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 
 .person-img-team {
   display: flex;
-  gap: 24PX;
+  gap: 24px;
 }
-.person-img-li{
+.person-img-li {
   margin: 10px;
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
-.list-one-person{
+.list-one-person {
   padding: 32px 0;
 }
-.list-one-h3{
-text-align: center;
-margin-bottom: 8px;
+.list-one-h3 {
+  text-align: center;
+  margin-bottom: 8px;
 }
-.list-one-p{
-text-align: center;
+.list-one-p {
+  text-align: center;
 }
 .our-team li {
   list-style-type: none;
 }
 
-
 /* OUR TEAM BİTİŞ*/
-
 
 .footer-menu {
   background-color: #2e2f42;
