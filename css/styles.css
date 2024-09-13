@@ -305,6 +305,58 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 
 /* OUR TEAM BİTİŞ*/
 
+/* OUR PORTFOİLO BAŞLANGIÇ*/
+
+.our-portfolio {
+  display: block;
+  text-align: center;
+  width: 1128px;
+  height: 1000px;
+  align-items: center;
+  margin-left: 100px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  border: #e7e9fc;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.our-port-head{
+  margin-bottom: 72px;
+}
+
+
+.our-img-list {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  text-align: center;
+  padding: 10px;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.our-img-li{
+  width: calc((100% - 72px) / 4);
+  margin: 3px;
+}
+
+.our-img-list img {
+  width: 360px;
+  height: 300px;
+}
+
+.list-one-port{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px;
+}
+
+
+/* OUR PORTFOİLO BİTİŞ*/
+
+
 .footer-menu {
   background-color: #2e2f42;
   width: 1440px;
@@ -335,35 +387,4 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   font-size: 18px;
   line-height: 21px;
   letter-spacing: 3%;
-}
-.our-portfolio {
-  display: block;
-  text-align: center;
-  width: 1128px;
-  height: 1000px;
-  align-items: center;
-  margin-left: 100px;
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.our-img-list {
-  display: flex;
-  list-style-type: none;
-  flex-wrap: wrap;
-  text-align: center;
-  padding: 10px;
-}
-.our-img-list li {
-  margin: 3px;
-}
-.our-img-list img {
-  width: 360px;
-  height: 300px;
-}
-
-.container-our-portfoilo {
-  border: #e7e9fc;
-  border-width: 1px;
-  border-style: solid;
 }
