@@ -74,7 +74,9 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   text-decoration: none;
   gap: 40px;
 }
-
+.main-menu-list-studio {
+  margin-right: 76px;
+}
 .main-menu-list-a {
   text-decoration: none;
   font-size: 18px;
@@ -321,10 +323,9 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   border-style: solid;
 }
 
-.our-port-head{
+.our-port-head {
   margin-bottom: 72px;
 }
-
 
 .our-img-list {
   display: flex;
@@ -336,7 +337,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   row-gap: 48px;
 }
 
-.our-img-li{
+.our-img-li {
   width: calc((100% - 72px) / 4);
   margin: 3px;
 }
@@ -346,18 +347,16 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   height: 300px;
 }
 
-.list-one-port{
+.list-one-port {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
   margin-bottom: 8px;
 }
 
-
 /* OUR PORTFOİLO BİTİŞ*/
 
 /* FOOTER BAŞLANGIÇ*/
-
 
 .footer-menu {
   background-color: #2e2f42;
@@ -377,14 +376,13 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   display: inline-block;
   margin-bottom: 16px;
 }
-.footer-prg{
+.footer-prg {
   color: #f4f4fd;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   max-width: 264px;
-
 }
 .span-href-footer {
   color: #f4f4fd;
@@ -395,8 +393,4 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   letter-spacing: 3%;
 }
 
-
 /* FOOTER BİTİŞ*/
-
-
-
