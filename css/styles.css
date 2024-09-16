@@ -38,6 +38,8 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 .container-header-main {
   display: flex;
   align-items: center;
+  margin-left: unset;
+  justify-content: center;
 }
 .header-list-menu {
   padding: 24px 0;
@@ -64,7 +66,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 .head-nav {
   display: flex;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 .main-menu-list {
   list-style-type: none;
@@ -73,6 +75,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   align-items: center;
   text-decoration: none;
   gap: 40px;
+  margin-left: 30px;
 }
 .main-menu-list-studio {
   margin-right: 76px;
@@ -95,6 +98,10 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 }
 .main-menu-list-studio:active {
   text-decoration: underline;
+}
+.adres-list {
+  display: flex;
+  gap: 24px;
 }
 .adres-list li {
   padding: 10px;
@@ -169,6 +176,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   height: 56px;
   border-radius: 4px;
   border: none;
+  margin-top: 40px;
 }
 .button:hover {
   background-color: #404bbf;
@@ -196,10 +204,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   margin-bottom: 8px;
 }
 
-.first-text {
-  display: flex;
-  gap: 24px;
-}
 .first-text-lim {
   width: calc((100% - 72px) / 4);
 }
@@ -213,13 +217,16 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .container-first-section {
   margin-bottom: 120px;
   padding: 120px 0;
+  width: 1128px;
+  text-align: center;
 }
-.container-first-section .first-text {
+.first-text {
   display: flex;
   align-items: center;
   padding: 20px;
   width: 1128px;
   height: 104px;
+  gap: 24px;
 }
 .container-first-section .first-text li {
   list-style-type: none;
@@ -308,12 +315,11 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 /* OUR TEAM BİTİŞ*/
 
 /* OUR PORTFOİLO BAŞLANGIÇ*/
-
 .our-portfolio {
   display: block;
   text-align: center;
   width: 1128px;
-  height: 1000px;
+  /* height: 1000px; */
   align-items: center;
   margin-left: 100px;
   padding-top: 120px;
@@ -332,19 +338,23 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   list-style-type: none;
   flex-wrap: wrap;
   text-align: center;
-  padding: 10px;
+ padding-top: 5px;
   column-gap: 24px;
   row-gap: 48px;
+  margin-bottom: 100px;
 }
 
 .our-img-li {
-  width: calc((100% - 72px) / 4);
-  margin: 3px;
+  /* width: calc((100% - 72px) / 4); */
+  padding: 20px;
+  
+ 
 }
 
 .our-img-list img {
-  width: 360px;
-  height: 300px;
+  width: 300px;
+  height: 250px;
+
 }
 
 .list-one-port {
