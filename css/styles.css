@@ -211,12 +211,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 .first-text-lim {
-  display: flexbox;
   width: calc((100% - 72px) / 4);
-  box-sizing: border-box; /* Kenarlık ve padding'i genişliğe dahil eder */
-  padding: 10px;
-  background-color: #f9f9f9; /* Örnek arka plan rengi */
-  margin: 0; /* Eğer boşluk istenmiyorsa */
 }
 .first-text p {
   font-size: 16px;
@@ -234,14 +229,10 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .first-text {
   display: flex;
   align-items: center;
-  padding: 20px;
+  /* padding: 20px; */
   width: 1128px;
   height: 104px;
   gap: 24px;
-
-  justify-content: space-between; /* Boşluklar arasında eşit dağıtım */
-  list-style-type: none; /* Varsayılan liste işaretlerini kaldırmak için */
-  margin: 0;
 
 }
 .container-first-section .first-text li {
