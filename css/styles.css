@@ -42,7 +42,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   justify-content: center;
 }
 
-.header-list-menu {
+.main-menu-list .header-list-menu {
   padding:24px 0;
 }
 
