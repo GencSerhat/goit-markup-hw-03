@@ -296,7 +296,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 .person-img-team {
-  display: flex;
+  display: flexbox;
   gap: 24px;
 }
 .person-img-li {
