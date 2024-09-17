@@ -211,6 +211,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 .first-text-lim {
+  display: flexbox;
   width: calc((100% - 72px) / 4);
   box-sizing: border-box; /* Kenarlık ve padding'i genişliğe dahil eder */
   padding: 10px;
