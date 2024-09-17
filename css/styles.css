@@ -237,6 +237,11 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   width: 1128px;
   height: 104px;
   gap: 24px;
+
+  justify-content: space-between; /* Boşluklar arasında eşit dağıtım */
+  list-style-type: none; /* Varsayılan liste işaretlerini kaldırmak için */
+  margin: 0;
+
 }
 .container-first-section .first-text li {
   list-style-type: none;
