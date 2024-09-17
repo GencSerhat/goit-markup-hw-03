@@ -295,12 +295,12 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   margin-bottom: 72px;
 }
 
-.person-img-team {
+.person-img-team { /* UL CLASSI /*/
   display: flex;
   gap: 24px;
 }
-.person-img-li {
-  margin: 10px;
+.person-img-li { /* Lİ CLASSI */
+  
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
