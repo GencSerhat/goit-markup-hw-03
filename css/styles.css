@@ -45,9 +45,9 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 .head-list-first{
   padding: 24px 0;
 }
-/* .header-list-menu {
+.header-list-menu {
   padding: 24px 0;
-} */
+}
 
 .head-href {
   color: #4d5ae5;
