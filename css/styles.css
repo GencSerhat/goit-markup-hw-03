@@ -348,12 +348,12 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   padding-top: 5px;
   column-gap: 24px;
   row-gap: 48px;
-  /* margin-bottom: 100px; */
+  
 }
 
 .our-img-li {
-  /* width: calc((100% - 72px) / 4); */
-  padding: 20px;
+ width: calc((100% - 72px) / 4);
+  
 }
 
 .our-img-list img {
