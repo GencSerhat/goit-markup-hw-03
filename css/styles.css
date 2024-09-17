@@ -22,6 +22,7 @@ ul {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  
 }
 
 img {
@@ -53,6 +54,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   line-height: 21px;
   letter-spacing: 3%;
   text-decoration: none;
+  margin-right: 76px;
 }
 .span-href {
   color: #2e2f42;
@@ -101,7 +103,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 }
 .adres-list {
   display: flex;
-  gap: 24px;
+  gap: 40px;
 }
 .adres-list li {
   padding: 10px;
