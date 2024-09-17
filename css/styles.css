@@ -42,8 +42,8 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   justify-content: center;
 }
 
-.main-menu-list .header-list-menu {
-  padding:24px 0;
+.header-list-menu {
+  padding: 24px 0;
 }
 
 .head-href {
@@ -189,7 +189,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 /* SECTİON FİRST TEXTLERİN BAŞLANGICI*/
 
 .visually-hidden {
-   position: absolute;
+  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -199,7 +199,6 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-
 }
 .frt-txt-hbas {
   font-weight: 500;
@@ -210,7 +209,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 .first-text-lim {
-  width: calc((100% - 72px)/4);
+  width: calc((100% - 72px) / 4);
 }
 .first-text p {
   font-size: 16px;
