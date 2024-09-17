@@ -22,7 +22,6 @@ ul {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  
 }
 
 img {
@@ -39,7 +38,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 .container-header-main {
   display: flex;
   align-items: center;
-  margin-left: unset;
+  /* margin-left: unset; */
   justify-content: center;
 }
 .header-list-menu {
@@ -153,7 +152,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .efective-head {
   padding: 188px 0;
 }
-.efective-h1 {
+.efective-hbas {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
@@ -340,7 +339,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   list-style-type: none;
   flex-wrap: wrap;
   text-align: center;
- padding-top: 5px;
+  padding-top: 5px;
   column-gap: 24px;
   row-gap: 48px;
   margin-bottom: 100px;
@@ -349,14 +348,11 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .our-img-li {
   /* width: calc((100% - 72px) / 4); */
   padding: 20px;
-  
- 
 }
 
 .our-img-list img {
   width: 300px;
   height: 250px;
-
 }
 
 .list-one-port {
