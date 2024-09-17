@@ -43,7 +43,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 }
 
 .header-list-menu {
-  padding: 24px 0;
+  
 }
 
 .head-href {
@@ -81,6 +81,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
 }
 .main-menu-list-studio {
   margin-right: 76px;
+  
 }
 .main-menu-list-a {
   text-decoration: none;
@@ -90,6 +91,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   letter-spacing: 2%;
   color: #2e2f42;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .main-menu-list a:hover {
