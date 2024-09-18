@@ -345,7 +345,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   list-style-type: none;
   flex-wrap: wrap;
   text-align: center;
-  padding-top: 5px;
+  /* padding-top: 5px; */
   column-gap: 24px;
   row-gap: 48px;
   
