@@ -43,9 +43,7 @@ HEADER BÖLÜMÜ KODLARI BAŞLANGIÇ
   
 }
 
-.header-list-menu {
-  
-}
+
 
 .head-href {
   color: #4d5ae5;
@@ -150,7 +148,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   text-align: center;
   padding: 188px 0;
   align-items: center;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 .efective-head {
