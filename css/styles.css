@@ -325,7 +325,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 .our-portfolio {
   display: block;
   text-align: center;
-  width: 1128px;
+  /* width: 1128px; */
   /* height: 1000px; */
   align-items: center;
   margin-left: 100px;
