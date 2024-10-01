@@ -169,9 +169,9 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
   /* display: inline-block; */
 }
 
-/* .efective-head {
+.efective-head {
   padding: 188px 0;
-} */
+}
 
 .efective-hbas {
   font-weight: 700;
@@ -389,7 +389,7 @@ HEADER BÖLÜMÜ KODLARI BİTİŞ
 }
 
 .our-img-list {
-  /* display: flex; */
+  display: flex;
   list-style-type: none;
   flex-wrap: wrap;
   text-align: center;
